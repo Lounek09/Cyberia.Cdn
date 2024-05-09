@@ -4,7 +4,7 @@ This repository contains static images used for the Discord bot Salamandra and t
 
 ## Setup
 
-> **Note:** This setup procedure is tailored to my specific use case, you can setup. Feel free to setup the CDN in any way that suits you.
+> **Note:** This procedure is tailored to my specific use case. Feel free to setup the CDN in any way that suits you.
 
 ### Installation Steps
 
