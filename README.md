@@ -1,6 +1,6 @@
 # Cyberia.Cdn
 
-This repository contains static images used for the Discord bot Salamandra and the website [amphibian.fr](https://amphibian.fr).
+This repository contains static images used for the Discord bot [Salamandra](https://discord.com/application-directory/687745374294638594) and the website [amphibian.fr](https://amphibian.fr).
 
 ## Setup
 
