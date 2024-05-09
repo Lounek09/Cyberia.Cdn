@@ -30,7 +30,7 @@ This repository contains static images used for the Discord bot Salamandra and t
    your-domain.com {
      root * /var/www/cyberia/Cyberia.Cdn
      file_server {
-       hide .git
+       hide .git .github README.md
      }
      encode gzip
      header Cache-Control max-age=1209600
