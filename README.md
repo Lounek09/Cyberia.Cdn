@@ -25,7 +25,7 @@ This repository contains static images used for the Discord bot [Salamandra](htt
    git clone git@github.com:Lounek09/Cyberia.Cdn.git
    ```
 4. **Configure Caddy:**
-   Open the Caddy configuration file `/etc/caddy/Caddyfile`, remove the default configuration if present, and add the following block, replacing localhost with your own domain:
+   Open the Caddy configuration file `/etc/caddy/Caddyfile`, remove the default configuration if present, and add the following block, don't forget to replace *your-domain.com* with your own domain:
    ```caddy
    your-domain.com {
      root * /var/www/cyberia/Cyberia.Cdn
