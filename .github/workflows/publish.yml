@@ -19,5 +19,5 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/cyberia/Cyberia.Cdn
+            cd /var/www/cyberia/Cdn
             git pull
