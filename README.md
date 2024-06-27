@@ -31,7 +31,7 @@ Ensure you have the following prerequisites installed:
    ```
    
 3. **Configure Caddy:**  
-   Open the Caddy configuration file `/etc/caddy/Caddyfile`, remove the default configuration if present, and add the following block, don't forget to replace *your-domain.com* with your own domain:
+   Edit the Caddy configuration file located at `/etc/caddy/Caddyfile` to include the following block, remove the default configuration if present. Replace *your-domain.com* with your actual domain:
    ```caddy
    (common) {
      header -Server
@@ -48,8 +48,9 @@ Ensure you have the following prerequisites installed:
      header Cache-Control max-age=1209600
    }
    ```
+   For more information, see the [Caddiyfile documentation](https://caddyserver.com/docs/caddyfile).  
    
-4. **Restart Caddy:**  
+5. **Restart Caddy:**  
    Restart the Caddy service to apply the new configuration[^1]:
    ```bash
    sudo systemctl restart caddy
