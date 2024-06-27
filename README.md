@@ -4,7 +4,8 @@ This repository contains static images used for the Discord bot [Salamandra](htt
 
 ## Setup
 
-> **Note:** This procedure is tailored to my specific use case. Feel free to setup the CDN in any way that suits you.
+> [!NOTE]
+> This procedure is tailored to my specific use case. Feel free to setup the Cdn in any way that suits you.
 
 ### Installation Steps
 
