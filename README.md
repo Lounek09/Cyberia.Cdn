@@ -28,7 +28,13 @@ This repository contains static images used for the Discord bot [Salamandra](htt
 4. **Configure Caddy:**
    Open the Caddy configuration file `/etc/caddy/Caddyfile`, remove the default configuration if present, and add the following block, don't forget to replace *your-domain.com* with your own domain:
    ```caddy
+   (common) {
+      header -Server
+   }
+
    your-domain.com {
+     import common
+   
      root * /var/www/cyberia/Cdn
      file_server {
        hide .git .github README.md
