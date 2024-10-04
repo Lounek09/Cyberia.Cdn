@@ -20,4 +20,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             cd /var/www/cyberia/Cdn
-            git pull
+            git pull --rebase
